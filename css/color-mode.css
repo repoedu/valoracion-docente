@@ -51,7 +51,7 @@
 }
 
 .btn-bd-primary {
-    --bd-violet-bg: #fd7e14;
+    --bd-violet-bg: var(--bs-primary);
     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
     --bs-btn-font-weight: 600;
@@ -59,12 +59,12 @@
     --bs-btn-bg: var(--bd-violet-bg);
     --bs-btn-border-color: var(--bd-violet-bg);
     --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #fd9d4e;
-    --bs-btn-hover-border-color: #fd9d4e;
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
     --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #fc7303;
-    --bs-btn-active-border-color: #fc7303;
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
 }
 
 .bd-mode-toggle {
